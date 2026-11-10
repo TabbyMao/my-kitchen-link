@@ -44,11 +44,13 @@ my-kitchen/
 - **加菜**：首页每个小分类最后有「+ 加菜」。
 - **删菜**：在那道菜的编辑页最下面点「删除这道菜」，弹窗里再确认一次。
 - **传照片**：在编辑页点「选择照片」，手机可以直接拍或从相册选，会自动压缩到 1200 像素宽。
-- **推荐 / 英文名**：在编辑页改，会自动同步到 menu.md。
+- **推荐 / 英文名 / 换分类**：在编辑页改。「分类」下拉框可以把这道菜挪到别的小分类，食谱跟着走。
+- **小分类**：标题旁的 ✎ 可以改名或删除；删除时里面的菜会整体移到你选的另一个小分类。每个大类最后有「+ 加小分类」。
+- **大类**：大标题旁的 ✎ 可以改中英文名、介绍、小标签和插画，或者删除；删除时里面的小分类和菜会移到你选的另一个大类，编号自动重排。最后一页有「+ 加一个大类」。
 - **中英文**：上面用中文或英文写都可以，保存时自动翻译出另一种语言。单位统一写成 g、ml、kg、min、h。
 - 每次保存都会在 GitHub 留一条记录。改错了，可以在仓库的 **History** 里找回旧版本。
 
-网页里暂时不能做的：给菜改名，新建或删除大类、小分类。这些要在 GitHub 上改 `menu.md`（见第四部分 A）。
+网页里暂时不能做的：给菜改名，调整大类、小分类的先后顺序。这些要在 GitHub 上改 `menu.md`（见第四部分 A）。
 
 ---
 
@@ -232,11 +234,13 @@ Open the site → key in the top-right corner → enter the edit password → an
 - **Add a dish**: every subcategory on the home page ends with "+ Add dish".
 - **Delete a dish**: "Delete this dish" at the bottom of its editor, then confirm in the pop-up.
 - **Photos**: "Choose photo" in the editor; on a phone you can take one or pick from the album. It's resized to 1200px wide automatically.
-- **Recommended / English name**: change them in the editor; menu.md updates automatically.
+- **Recommended / English name / category**: change them in the editor. The "Category" menu moves the dish into another section; its recipe goes with it.
+- **Sections**: the ✎ next to a section title renames or deletes it; when deleting, its dishes move to another section you choose. Each category ends with "+ Add section".
+- **Categories**: the ✎ next to a category title changes its Chinese and English names, intro, tag and illustration, or deletes it; when deleting, its sections and dishes move to another category you choose, and the numbers are renumbered. The last page has "+ Add a category".
 - **Languages**: write in Chinese or English; saving translates into the other language. Units are always g, ml, kg, min, h.
 - Every save is recorded in GitHub. If something goes wrong, restore an older version from the repository's **History**.
 
-Not possible on the page yet: renaming a dish, or adding/removing categories and subcategories. Do those in `menu.md` on GitHub (see section 4A).
+Not possible on the page yet: renaming a dish, or reordering categories and sections. Do those in `menu.md` on GitHub (see section 4A).
 
 ---
 
